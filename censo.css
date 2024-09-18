@@ -1,0 +1,42 @@
+body {
+    color: antiquewhite;
+    font-family: 'Star Wars', sans-serif;
+    background-image: url("https://cdn.wallpapersafari.com/68/3/GAP90H.jpg");
+    background-size: cover;
+}
+
+section {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+
+#options {
+    display:flex;
+    justify-content: center;    
+}
+
+#options button {
+    margin-right: 20px;
+}
+
+#result li{
+    text-align: left;
+    padding: 5px;
+}
+
+button {
+    font-family: 'Star Wars', sans-serif;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+}

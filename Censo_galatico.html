@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Code Challenge</title>
+    <link rel="stylesheet" href="censo.css">
+    <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet">
+
+</head>
+<body>
+
+    <section>
+        <h1>G a l a c t i c  -  C h a l l e n g e</h1>        
+    </section>
+    
+    <div id="options">
+        <button onclick="getData()">Show All Planets</button>
+        <input type="text" name="search" id="search" placeholder="Insert Planet Name">
+        <button onclick="searchPlanet()">Search</button>
+    </div>
+
+    <div id="result">
+            
+    </div>
+
+    <main>
+
+        <div id ="planetInfo">
+
+        </div>
+
+        <table id="residentInfo">
+            <legend>Planet resident info</legend>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Birth</th>
+                </tr>
+                <tbody>
+
+                </tbody>
+            </thead>
+
+        </table>
+
+    </main>
+    <script src="censo.js"></script>
+</body>
+</html>
